@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Training</title>
+<meta name="theme-color" content="#0e7a6e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><h1 id="h1">Training</h1><div class="sub" id="hsub"></div></header>
+<main id="view"></main>
+<nav class="tabs" id="tabs">
+  <button data-act="tab" data-tab="today"><span class="ic">◉</span>Vandaag</button>
+  <button data-act="tab" data-tab="week"><span class="ic">▦</span>Week</button>
+  <button data-act="tab" data-tab="progress"><span class="ic">↗</span>Voortgang</button>
+  <button data-act="tab" data-tab="more"><span class="ic">≡</span>Meer</button>
+</nav>
+<div id="sheet"></div>
+<div id="toast"></div>
+<div id="timer" class="hidden"></div>
+<noscript>Deze app heeft JavaScript nodig.</noscript>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
